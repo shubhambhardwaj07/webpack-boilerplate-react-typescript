@@ -8,6 +8,9 @@ export const App = () => {
   return (
     <div>
       <h1>Boiler Plate code - React with Typescript</h1>
+      <h2>
+        Current Mode - {process.env.NODE_ENV} {process.env.name}
+      </h2>
       <div className="img-container">
         <img src={WebpackImg} />
         <img src={Logo} />
