@@ -1,5 +1,17 @@
 import react from "react";
+import WebpackImg from "./webpack5.jpg";
+import Logo from "./reactjs.svg";
+
+import "./styles.css";
 
 export const App = () => {
-  return <h1>Boiler Plate code</h1>;
+  return (
+    <div>
+      <h1>Boiler Plate code - React with Typescript</h1>
+      <div className="img-container">
+        <img src={WebpackImg} />
+        <img src={Logo} />
+      </div>
+    </div>
+  );
 };
