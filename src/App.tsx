@@ -1,7 +1,7 @@
 import react from "react";
 import WebpackImg from "./webpack5.jpg";
 import Logo from "./reactjs.svg";
-
+import { ClickCounter } from "./ClickCounter";
 import "./styles.css";
 
 export const App = () => {
@@ -15,6 +15,7 @@ export const App = () => {
         <img src={WebpackImg} />
         <img src={Logo} />
       </div>
+      <ClickCounter />
     </div>
   );
 };
